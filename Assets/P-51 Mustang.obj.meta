@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: e2c92eed6294f5f4d9e6605434e08fc8
+timeCreated: 1455329105
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: P-51_Mustang_Back_Wheel
+    100004: P-51_Mustang_Hull
+    100006: P-51_Mustang_Left_Elevator
+    100008: P-51_Mustang_Left_Landing_Wheel
+    100010: P-51_Mustang_Left_Rockets
+    100012: P-51_Mustang_Left_Wing
+    100014: P-51_Mustang_Left_Wing_Flap
+    100016: P-51_Mustang_Proppeler
+    100018: P-51_Mustang_Right_Elevator
+    100020: P-51_Mustang_Right_Landing_Wheel
+    100022: P-51_Mustang_Right_Rockets
+    100024: P-51_Mustang_Right_Wing
+    100026: P-51_Mustang_Right_Wing_Flap
+    100028: P-51_Mustang_Rudder
+    400000: //RootNode
+    400002: P-51_Mustang_Back_Wheel
+    400004: P-51_Mustang_Hull
+    400006: P-51_Mustang_Left_Elevator
+    400008: P-51_Mustang_Left_Landing_Wheel
+    400010: P-51_Mustang_Left_Rockets
+    400012: P-51_Mustang_Left_Wing
+    400014: P-51_Mustang_Left_Wing_Flap
+    400016: P-51_Mustang_Proppeler
+    400018: P-51_Mustang_Right_Elevator
+    400020: P-51_Mustang_Right_Landing_Wheel
+    400022: P-51_Mustang_Right_Rockets
+    400024: P-51_Mustang_Right_Wing
+    400026: P-51_Mustang_Right_Wing_Flap
+    400028: P-51_Mustang_Rudder
+    2300000: P-51_Mustang_Back_Wheel
+    2300002: P-51_Mustang_Hull
+    2300004: P-51_Mustang_Left_Elevator
+    2300006: P-51_Mustang_Left_Landing_Wheel
+    2300008: P-51_Mustang_Left_Rockets
+    2300010: P-51_Mustang_Left_Wing
+    2300012: P-51_Mustang_Left_Wing_Flap
+    2300014: P-51_Mustang_Proppeler
+    2300016: P-51_Mustang_Right_Elevator
+    2300018: P-51_Mustang_Right_Landing_Wheel
+    2300020: P-51_Mustang_Right_Rockets
+    2300022: P-51_Mustang_Right_Wing
+    2300024: P-51_Mustang_Right_Wing_Flap
+    2300026: P-51_Mustang_Rudder
+    3300000: P-51_Mustang_Back_Wheel
+    3300002: P-51_Mustang_Hull
+    3300004: P-51_Mustang_Left_Elevator
+    3300006: P-51_Mustang_Left_Landing_Wheel
+    3300008: P-51_Mustang_Left_Rockets
+    3300010: P-51_Mustang_Left_Wing
+    3300012: P-51_Mustang_Left_Wing_Flap
+    3300014: P-51_Mustang_Proppeler
+    3300016: P-51_Mustang_Right_Elevator
+    3300018: P-51_Mustang_Right_Landing_Wheel
+    3300020: P-51_Mustang_Right_Rockets
+    3300022: P-51_Mustang_Right_Wing
+    3300024: P-51_Mustang_Right_Wing_Flap
+    3300026: P-51_Mustang_Rudder
+    4300000: P-51_Mustang_Back_Wheel
+    4300002: P-51_Mustang_Hull
+    4300004: P-51_Mustang_Left_Elevator
+    4300006: P-51_Mustang_Left_Landing_Wheel
+    4300008: P-51_Mustang_Left_Rockets
+    4300010: P-51_Mustang_Left_Wing
+    4300012: P-51_Mustang_Left_Wing_Flap
+    4300014: P-51_Mustang_Proppeler
+    4300016: P-51_Mustang_Right_Elevator
+    4300018: P-51_Mustang_Right_Landing_Wheel
+    4300020: P-51_Mustang_Right_Rockets
+    4300022: P-51_Mustang_Right_Wing
+    4300024: P-51_Mustang_Right_Wing_Flap
+    4300026: P-51_Mustang_Rudder
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00600000005
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

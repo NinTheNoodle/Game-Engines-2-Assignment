@@ -1,0 +1,12 @@
+The camera emerges from behind a mountain and starts following some bombers on their way to a carpet bombing run.
+The bombers are flying in formation using offset persue, with the leader following a path.
+The bombers have a few fighters following along as protection. The fighters are flying above the bombers.
+
+Just after the carpet bombing starts, the bombers get intercepted by fighter planes and a dogfight breaks out.
+The bombers are all destroyed and the camera begins following one of the bomber assisting figters as it flees the scene with the enemy fighters chasing it.
+
+The fighter pulls a nonsense menuver and starts flying backwards firing at the enemy fighters. The camera pulls up to the side of the action.
+Out of nowhere the fighter smashes into a mountain because it was not paying attention.
+The enemy fighters disperse.
+
+The enemy fighters use seek when chasing the fighter combined with some elements of the flocking behaviour (such as keeping aligned with the other fighters).
