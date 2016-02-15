@@ -4,13 +4,16 @@ using System.Collections;
 public class PathNode : MonoBehaviour {
 
     public GameObject nextTarget = null;
-    public float radius = 25;
+    public float radius = 80;
+    public float goodEnoughRadius = 160;
+    public float goodEnoughTime = 2;
 
     void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawSphere(transform.position, 1);
         Gizmos.DrawWireSphere(transform.position, radius);
+        Gizmos.color = Color.Lerp(Color.green, Color.black, 0.5f);
+        Gizmos.DrawWireSphere(transform.position, goodEnoughRadius);
         if (nextTarget != null)
         {
             Vector3 offset = nextTarget.transform.position - transform.position;

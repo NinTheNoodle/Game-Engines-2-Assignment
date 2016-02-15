@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Path : MonoBehaviour {
 
+    private float goodEnoughTimer = 0;
+
 	// Use this for initialization
 	void Start () {
         enabled = false;
@@ -12,14 +14,30 @@ public class Path : MonoBehaviour {
 	void Update () {
         Fly fly = gameObject.GetComponent<Fly>();
         BehaviourController controller = gameObject.GetComponent<BehaviourController>();
-        fly.targetVelocity = controller.target.transform.position - transform.position;
-        fly.targetVelocity.Normalize();
+        Vector3 offset = controller.target.transform.position - transform.position;
+        float angle = Vector3.Angle(transform.forward, offset);
 
         PathNode targetComponent = controller.target.GetComponent<PathNode>();
+        
+        fly.targetVelocity = offset;
+        
 
-        if (Vector3.Distance(transform.position, controller.target.transform.position) <= targetComponent.radius)
+        if (offset.magnitude <= targetComponent.radius)
         {
             controller.target = targetComponent.nextTarget;
+            goodEnoughTimer = 0;
         }
+
+        if (offset.magnitude <= targetComponent.goodEnoughRadius)
+        {
+            goodEnoughTimer += Time.deltaTime;
+            if (goodEnoughTimer > targetComponent.goodEnoughTime)
+            {
+                controller.target = targetComponent.nextTarget;
+                goodEnoughTimer = 0;
+            }
+        }
+        else
+            goodEnoughTimer = 0;
     }
 }
