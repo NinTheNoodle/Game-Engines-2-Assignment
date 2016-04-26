@@ -2,14 +2,8 @@
 using System.Collections;
 
 public class ProppelerSpin : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        transform.Rotate(Vector3.forward, 60);
+    void Update ()
+    {
+        transform.Rotate(Vector3.forward, 53);
 	}
 }

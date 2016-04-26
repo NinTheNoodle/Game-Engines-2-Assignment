@@ -3,10 +3,6 @@ using System.Collections;
 
 public class Seek : MonoBehaviour
 {
-	void Start () {
-        enabled = false;
-	}
-	
 	void Update () {
         Fly fly = gameObject.GetComponent<Fly>();
         BehaviourController controller = gameObject.GetComponent<BehaviourController>();

@@ -4,13 +4,8 @@ using System.Collections;
 public class Path : MonoBehaviour {
 
     private float goodEnoughTimer = 0;
-
-	// Use this for initialization
-	void Start () {
-        enabled = false;
-    }
+    
 	
-	// Update is called once per frame
 	void Update () {
         Fly fly = gameObject.GetComponent<Fly>();
         BehaviourController controller = gameObject.GetComponent<BehaviourController>();

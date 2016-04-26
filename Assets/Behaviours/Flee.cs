@@ -1,13 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Flee : MonoBehaviour {
-
-    void Start()
-    {
-        enabled = false;
-    }
-
+public class Flee : MonoBehaviour
+{
     void Update()
     {
         Fly fly = gameObject.GetComponent<Fly>();
