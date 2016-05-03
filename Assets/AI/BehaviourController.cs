@@ -30,8 +30,10 @@ public class BehaviourController : MonoBehaviour
     {
         if (target != null)
         {
+            Gizmos.color = Color.black;
+            Gizmos.DrawLine(transform.position, transform.position + (target.transform.position - transform.position) * 0.01f);
             Gizmos.color = Color.yellow;
-            Gizmos.DrawLine(transform.position, target.transform.position);
+            Gizmos.DrawLine(transform.position + (target.transform.position - transform.position) * 0.01f, target.transform.position);
         }
     }
 }

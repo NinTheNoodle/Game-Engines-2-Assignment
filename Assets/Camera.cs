@@ -10,13 +10,7 @@ public class Camera : MonoBehaviour {
     public float movementReactivity = 1;
     public float verticalReactivity = 1;
     public Vector3 offset = new Vector3(0, 5, 0);
-
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
+    
 	void Update () {
         Vector3 position = offset + player.transform.position;
 
